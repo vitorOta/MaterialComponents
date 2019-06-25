@@ -2,5 +2,11 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorOnPrimary">@android:color/white</color>
+
+    <color name="colorSecondary">#F44336</color>
+    <color name="colorSecondaryVariant">#B71C1C</color>
+    <color name="colorOnSecondary">@android:color/white</color>
+
     <color name="colorAccent">#D81B60</color>
 </resources>

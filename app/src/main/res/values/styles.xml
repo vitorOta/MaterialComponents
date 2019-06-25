@@ -2,16 +2,26 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        <!--COLORS-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
 
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--TYPOGRAPHY-->
 
         <item name="android:fontFamily">@font/press_start_2p</item>
         <item name="fontFamily">@font/press_start_2p</item>
 
+
+        <!--CUSTOM STYLES-->
         <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.Colored</item>
         <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
     </style>
