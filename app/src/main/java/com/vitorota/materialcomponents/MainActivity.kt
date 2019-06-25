@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import com.vitorota.materialcomponents.util.toast
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * @author Vitor Ota
+ * @since 25/06/2019
+ */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_bottom_app_bar, menu)
+        menuInflater.inflate(R.menu.main_bottom_app_bar, menu)
         return true
     }
 
