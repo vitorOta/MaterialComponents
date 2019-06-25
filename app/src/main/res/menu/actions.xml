@@ -12,4 +12,10 @@
             app:showAsAction="ifRoom"
             android:title="@string/search"
             android:icon="@drawable/ic_search"/>
+
+    <item
+            android:id="@+id/menu_music"
+            app:showAsAction="ifRoom"
+            android:title="@string/music"
+            android:icon="@drawable/ic_music"/>
 </menu>

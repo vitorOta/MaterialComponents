@@ -9,10 +9,11 @@
 
         <item name="colorAccent">@color/colorAccent</item>
 
-        <!--<item name="android:fontFamily">@font/press_start_2p</item>-->
-        <!--<item name="fontFamily">@font/press_start_2p</item>-->
+        <item name="android:fontFamily">@font/press_start_2p</item>
+        <item name="fontFamily">@font/press_start_2p</item>
 
         <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.Colored</item>
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView</item>
     </style>
 
 </resources>
